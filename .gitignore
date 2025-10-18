@@ -7,10 +7,54 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
 dist
 dist-ssr
-*.local
+build/
+.next
+out
+.nuxt
+.cache
+.parcel-cache
+.web_modules/
+.vuepress/dist
+.svelte-kit/
+**/.vitepress/dist
+**/.vitepress/cache
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.firebase/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directories
+coverage
+*.lcov
+.nyc_output
+
+# Compiled binaries
+build/Release
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +66,34 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Optional eslint/stylelint cache
+.eslintcache
+.stylelintcache
+
+# Parcel/Nuxt/Vite logs
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel cache
+.cache
+.parcel-cache
+
+# Nyc coverage
+.nyc_output
+
+# Bower
+bower_components
+
+# Snowpack
+web_modules/
+
+# REPL history
+.node_repl_history
+
+# Misc
+*.tgz
+.tern-port

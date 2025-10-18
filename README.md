@@ -50,4 +50,4 @@ EduLearn is a **web-based Learning Management System (LMS)** developed by our te
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/VASANTHI3046/EduLearn.git
+   git clone https://github.com/VASANTHI3046/LegacyTechies-LMS.git
