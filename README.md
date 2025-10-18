@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# EduLearn LMS
 
-## Project info
+## Team Information
+**Team ID:** 110  
+**Team Name:** Legacy Techies  
+**Institute:** Siddharth Institute of Engineering & Technology  
+**Team Members:**  
+- Vasanthi Yadala  
+- Sai Dhamini  
+- Varsha Rangayyagari  
+- Vidya Hanumantharayulu gari  
 
-**URL**: https://lovable.dev/projects/a00bd5f7-a092-40de-91f6-8f6bd680e788
+---
 
-## How can I edit this code?
+## About the Project
+EduLearn is a **web-based Learning Management System (LMS)** developed by our team. It provides a seamless experience for **students** and **teachers** to manage courses, assignments, grades, and discussions. The system supports:  
 
-There are several ways of editing your application.
+### **Student Features**
+- Register/Login securely  
+- View available courses and enroll  
+- Access enrolled courses and track progress  
+- Submit assignments and view grades  
+- Participate in course discussion forums  
+- Access course materials (PDF, PPT, etc.)  
 
-**Use Lovable**
+### **Teacher Features**
+- Register/Login securely  
+- Create and manage courses  
+- View enrolled students per course  
+- Create and grade assignments  
+- Upload course materials  
+- Participate in course discussion forums  
+- Track overall student performance  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a00bd5f7-a092-40de-91f6-8f6bd680e788) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Technology Stack
 
-**Use your preferred IDE**
+**Frontend:**  
+- React.js + TypeScript  
+- Tailwind CSS (Responsive design)  
+- Font Awesome (Icons)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Backend:**  
+- Supabase (Database, Authentication, File Storage, Serverless Functions)  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## How to Run Locally
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a00bd5f7-a092-40de-91f6-8f6bd680e788) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/VASANTHI3046/EduLearn.git
